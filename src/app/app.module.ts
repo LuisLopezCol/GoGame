@@ -17,6 +17,7 @@ import { NavbarComponent } from './tools/navbar/navbar.component';
 import { FooterComponent } from './tools/footer/footer.component';
 import { NotfoundComponent } from './pages/notfound/notfound.component';
 import { ProductsComponent } from './pages/products/products.component';
+import { FormSearchComponent } from './tools/form-search/form-search.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { ProductsComponent } from './pages/products/products.component';
     NavbarComponent,
     FooterComponent,
     NotfoundComponent,
-    ProductsComponent
+    ProductsComponent,
+    FormSearchComponent
   ],
   imports: [
     BrowserModule,
